@@ -3,7 +3,7 @@
 SwiftUI app I will use to solve [AdventOfCode](http://adventofcode.com) this year.
 
 <details>
-  <summary>Screenshot **(Spoiler warning: includes code for first puzzle)**</summary>
+  <summary>Screenshot (Spoiler warning: includes code for first puzzle)</summary>
   
   ![Screenshot](https://github.com/epaga/AdventOfCode2022/blob/main/SCR-20221201-iix.png?raw=true)    
   
