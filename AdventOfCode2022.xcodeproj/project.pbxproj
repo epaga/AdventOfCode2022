@@ -11,6 +11,11 @@
 		160E06452938CE1400735239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E06442938CE1400735239 /* ContentView.swift */; };
 		160E06472938CE1700735239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160E06462938CE1700735239 /* Assets.xcassets */; };
 		160E064B2938CE1700735239 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160E064A2938CE1700735239 /* Preview Assets.xcassets */; };
+		160E06582938CE4C00735239 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E06512938CE4C00735239 /* CodeView.swift */; };
+		160E06592938CE4C00735239 /* Data1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E06532938CE4C00735239 /* Data1.swift */; };
+		160E065A2938CE4C00735239 /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E06542938CE4C00735239 /* PuzzleView.swift */; };
+		160E065B2938CE4C00735239 /* Puzzle1-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E06562938CE4C00735239 /* Puzzle1-2.swift */; };
+		160E065C2938CE4C00735239 /* Puzzle1-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E06572938CE4C00735239 /* Puzzle1-1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		160E06462938CE1700735239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		160E06482938CE1700735239 /* AdventOfCode2022.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdventOfCode2022.entitlements; sourceTree = "<group>"; };
 		160E064A2938CE1700735239 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		160E06512938CE4C00735239 /* CodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		160E06532938CE4C00735239 /* Data1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data1.swift; sourceTree = "<group>"; };
+		160E06542938CE4C00735239 /* PuzzleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
+		160E06562938CE4C00735239 /* Puzzle1-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Puzzle1-2.swift"; sourceTree = "<group>"; };
+		160E06572938CE4C00735239 /* Puzzle1-1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Puzzle1-1.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,10 @@
 			children = (
 				160E06422938CE1300735239 /* AdventOfCode2022App.swift */,
 				160E06442938CE1400735239 /* ContentView.swift */,
+				160E06512938CE4C00735239 /* CodeView.swift */,
+				160E06522938CE4C00735239 /* Data */,
+				160E06542938CE4C00735239 /* PuzzleView.swift */,
+				160E06552938CE4C00735239 /* Solutions */,
 				160E06462938CE1700735239 /* Assets.xcassets */,
 				160E06482938CE1700735239 /* AdventOfCode2022.entitlements */,
 				160E06492938CE1700735239 /* Preview Content */,
@@ -67,6 +81,23 @@
 				160E064A2938CE1700735239 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		160E06522938CE4C00735239 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				160E06532938CE4C00735239 /* Data1.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		160E06552938CE4C00735239 /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				160E06562938CE4C00735239 /* Puzzle1-2.swift */,
+				160E06572938CE4C00735239 /* Puzzle1-1.swift */,
+			);
+			path = Solutions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160E065B2938CE4C00735239 /* Puzzle1-2.swift in Sources */,
+				160E06582938CE4C00735239 /* CodeView.swift in Sources */,
+				160E065C2938CE4C00735239 /* Puzzle1-1.swift in Sources */,
+				160E06592938CE4C00735239 /* Data1.swift in Sources */,
 				160E06452938CE1400735239 /* ContentView.swift in Sources */,
 				160E06432938CE1300735239 /* AdventOfCode2022App.swift in Sources */,
+				160E065A2938CE4C00735239 /* PuzzleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

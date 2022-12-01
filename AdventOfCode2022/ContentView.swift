@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AdventOfCode2022App.swift
 //  AdventOfCode2022
 //
 //  Created by John Goering on 01.12.22.
@@ -7,20 +7,11 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+@main
+struct AdventOfCode2022App: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
         }
-        .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
