@@ -16,6 +16,9 @@
 		160E065A2938CE4C00735239 /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E06542938CE4C00735239 /* PuzzleView.swift */; };
 		160E065B2938CE4C00735239 /* Puzzle1-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E06562938CE4C00735239 /* Puzzle1-2.swift */; };
 		160E065C2938CE4C00735239 /* Puzzle1-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E06572938CE4C00735239 /* Puzzle1-1.swift */; };
+		161CA32B2939DC840084B835 /* Data2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA32A2939DC840084B835 /* Data2.swift */; };
+		161CA32D2939DCB20084B835 /* Puzzle2-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA32C2939DCB20084B835 /* Puzzle2-1.swift */; };
+		161CA32F2939DF620084B835 /* Puzzle2-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161CA32E2939DF620084B835 /* Puzzle2-2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		160E06542938CE4C00735239 /* PuzzleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
 		160E06562938CE4C00735239 /* Puzzle1-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Puzzle1-2.swift"; sourceTree = "<group>"; };
 		160E06572938CE4C00735239 /* Puzzle1-1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Puzzle1-1.swift"; sourceTree = "<group>"; };
+		161CA32A2939DC840084B835 /* Data2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data2.swift; sourceTree = "<group>"; };
+		161CA32C2939DCB20084B835 /* Puzzle2-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Puzzle2-1.swift"; sourceTree = "<group>"; };
+		161CA32E2939DF620084B835 /* Puzzle2-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Puzzle2-2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				160E06532938CE4C00735239 /* Data1.swift */,
+				161CA32A2939DC840084B835 /* Data2.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -96,6 +103,8 @@
 			children = (
 				160E06562938CE4C00735239 /* Puzzle1-2.swift */,
 				160E06572938CE4C00735239 /* Puzzle1-1.swift */,
+				161CA32C2939DCB20084B835 /* Puzzle2-1.swift */,
+				161CA32E2939DF620084B835 /* Puzzle2-2.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -172,9 +181,12 @@
 			files = (
 				160E065B2938CE4C00735239 /* Puzzle1-2.swift in Sources */,
 				160E06582938CE4C00735239 /* CodeView.swift in Sources */,
+				161CA32D2939DCB20084B835 /* Puzzle2-1.swift in Sources */,
+				161CA32B2939DC840084B835 /* Data2.swift in Sources */,
 				160E065C2938CE4C00735239 /* Puzzle1-1.swift in Sources */,
 				160E06592938CE4C00735239 /* Data1.swift in Sources */,
 				160E06452938CE1400735239 /* ContentView.swift in Sources */,
+				161CA32F2939DF620084B835 /* Puzzle2-2.swift in Sources */,
 				160E06432938CE1300735239 /* AdventOfCode2022App.swift in Sources */,
 				160E065A2938CE4C00735239 /* PuzzleView.swift in Sources */,
 			);
