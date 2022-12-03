@@ -37,6 +37,18 @@ struct ContentView: View {
                     } label: {
                         Label("Puzzle 2-2", systemImage: "folder")
                     }
+                    NavigationLink {
+                        Puzzle31()
+                            .frame(maxWidth: .infinity)
+                    } label: {
+                        Label("Puzzle 3-1", systemImage: "folder")
+                    }
+                    NavigationLink {
+                        Puzzle32()
+                            .frame(maxWidth: .infinity)
+                    } label: {
+                        Label("Puzzle 3-2", systemImage: "folder")
+                    }
                 }
                 .padding()
             }

@@ -39,7 +39,7 @@ struct Puzzle12: View {
             }
             var sorted:[Int] = inventorySums.sorted().reversed()
             sorted = [sorted[0],sorted[1],sorted[2]]
-            // return the the largest amount of total calories
+            // return the the sum of top 3 calories
             return "\(sorted.reduce(0, +))"
         }
     }
